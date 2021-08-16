@@ -1,0 +1,20 @@
+name: depth
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.8
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - tqdm
+  - pip
+  - pip:
+    - h5py
+    - torch
+    - torchvision
+    - imageio
+    - matplotlib
+    - scikit-image
+    - opencv-python
